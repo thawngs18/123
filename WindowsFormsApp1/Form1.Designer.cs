@@ -134,10 +134,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
 
-        private void toolStripButton1_Click(object sender, System.EventArgs e)
-        {
 
-        }
     }
 }
 
