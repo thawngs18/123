@@ -27,5 +27,6 @@ namespace WindowsFormsApp1
             panel1.Controls.Add(qr);
             qr.Show();
         }
+
     }
 }
