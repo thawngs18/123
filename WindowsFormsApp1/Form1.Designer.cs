@@ -33,9 +33,9 @@
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.toolStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -77,14 +77,14 @@
             this.panel2.Size = new System.Drawing.Size(300, 300);
             this.panel2.TabIndex = 3;
             // 
-            // label1
+            // label3
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(44, 35);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Avengers: Endgame";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(43, 103);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(47, 13);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Phòng 1";
             // 
             // label2
             // 
@@ -95,14 +95,14 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "21/12/2024 7:00PM";
             // 
-            // label3
+            // label1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(43, 103);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(47, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Phòng 1";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(44, 35);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(103, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Avengers: Endgame";
             // 
             // Form1
             // 
@@ -133,6 +133,11 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+
+        private void toolStripButton1_Click(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }
 
